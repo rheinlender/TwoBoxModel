@@ -1,6 +1,21 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+#####################################################################
+The TwoBoxmodel is a very simple box model calculating the changes in 
+global SST temperature with time based on prescribed feedback factors
+and heat capacity with interactions to the deep ocean.
+
+Author: Asgeir Sorteberg,
+
+Geophysical Institute, University of Bergen.
+
+email: asgeir.sorteberg@gfi.uib.no
+
+Feb. 2011
+
+#####################################################################
+
 I denne filen defineres noen konstanter 
 (som tykkelse av blandingslag og verdenshavene, og varmekapasitet)
 I tillegg brukes strålingspådrivet, sammen med tilbakekoblingseffekter og 
